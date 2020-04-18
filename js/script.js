@@ -1,3 +1,4 @@
+/* header-sticky-scroll */
 window.onscroll = function() {stickyscroll()};
 var navbar = document.getElementById("navbar-div");
 var sticky = navbar.offsetTop;
@@ -9,10 +10,12 @@ function stickyscroll() {
 	}
 }
 
+/* menu-button-transform */
 function transform(x) {
 	x.classList.toggle("change");
 }
 
+/* flags-cl-bw */
 function flagcl1() {
 	var cl = document.getElementById('flag1');
 	cl.src = ("img/eng-flag.png")

@@ -198,7 +198,7 @@ border-radius: 10px;}
 .certificate-description
 {background-color: rgba(59, 142, 165, 0.20); margin: 2.5%; border-radius: 5px;}
 .certificate-description:hover
-{box-shadow: 0px 0px 2.5px 0px #F8C18D; }
+{box-shadow: 0px 0px 2.5px 0px #F8C18D;}
 .certificate-description h4
 {margin: 15px 0px 10px; font-size: 1.10em;}
 .certificate-description h5
@@ -206,6 +206,55 @@ border-radius: 10px;}
 .certificate-description section
 {margin: 25px 5px 15px; padding-bottom: 5px; font-size: 0.675em;}
 
-/* placeholder */
-#placeholder
-{clear: both; display: block;}
+/* quotes-div */
+#quotes-div
+{overflow: hidden; margin-bottom: 25px;}
+.quote-div-container
+{width: 25%; float: left;}
+.quote-div
+{height: 200px; margin: 15px; padding: 15px 5px 5px 0px; background-color: rgba(59, 142, 165, 0.25);
+border-radius: 5px;}
+.quote-div:hover
+{box-shadow: 0px 0px 2.5px 0px #F8C18D;}
+.quote
+{height: 70%; margin: 0% 1% 0% 7.5%; padding: 1% 2.5% 0% 5%; font-size: 0.75em;
+border-left: 5px solid rgba(248, 193, 141, 0.50); text-align: left;}
+.quote section
+{font-size: 1.05em;}
+.quotee h4
+{font-size: 0.50em; padding: 2.5%;}
+.quotee span
+{font-size: 0.85em; color: #F9F5CA;}
+
+/* footer-div */
+#footer-div
+{left: 0; bottom: 0; width: 100%; text-align: left; overflow: hidden;
+border-top: 2.5px solid #F8C18D; box-shadow: 0px 1px 5px #F8C18D;
+background-color: #BA584F;}
+.footer-content
+{margin-bottom: 25px;}
+#footer-content-1
+{width: 60%; float: left; overflow: hidden;}
+#footer-content-2
+{width: 40%; float: left; overflow: hidden;}
+#footer-content-1 h4
+{padding: 0% 5% 0.5% 25%; margin: 2.5% 0% 2.5%;}
+#footer-content-2 h4
+{padding: 0% 5% 0.5% 15%; margin: 2.5% 0% 2.5%;}
+#footer-content-1 section
+{padding: 0% 5% 0% 25%; margin: 0;}
+#footer-content-2 section
+{padding: 0% 5% 0% 15%; margin: 0;}
+.footer-content h5
+{display: inline;}
+.footer-content a
+{padding: 1%; text-decoration: none; color: #F9F5CA; font-size: 0.85em; vertical-align: middle;}
+.footer-content a:hover
+{color: #F8C18D;}
+.footer-content img
+{height: 25px; width: 25px; vertical-align: middle; padding: 1%;}
+#footer-div hr
+{display: block; width: 75%; background-color: #F8C18D; text-align: center; color: #F8C18D;
+height: 1px; border: none;}
+#trademark-text section
+{text-align: center; font-size: 0.75em;}
