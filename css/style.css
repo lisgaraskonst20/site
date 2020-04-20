@@ -3,7 +3,7 @@ body
 {box-sizing: border-box; margin: 0px; background-color: #296882; text-align: center;
 color: #F9F5CA; font-family: candara; font-size: 20px; font-weight: 100;}
 h1
-{text-transform: uppercase; padding: 5px; margin-top: 5vh; margin-bottom: 0;
+{text-transform: uppercase; padding: 5px; margin-top: 6vh; margin-bottom: 0;
 font-weight: 300; text-shadow: 1px 1px #F8C18D; font-size: 2.75em;}
 h2
 {display: inline-block; font-size: 1.75em; font-weight: 100; padding: 0; margin-bottom: 1vh;}
@@ -64,7 +64,7 @@ background-size: cover; z-index: -5; border-bottom: 2.5px solid #F8C18D;}
 {width: 125px; height: 111px; margin-top: 7.5vh; margin-left: 2.5vh;
 border: 1.5px solid #F8C18D; border-radius: 15px;}
 #header-heading-div
-{width: 80%; float: left; height: 30vh;}
+{width: 80%; float: left; height: 30vh; margin-top: 1%;}
 #header-heading-div p
 {width: 75%; margin: auto; font-weight: 100; font-size: 1.05em;}
 #header-div
