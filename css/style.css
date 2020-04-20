@@ -56,7 +56,7 @@ background-color: #296882; border: 1px solid #F8C18D;}
 
 /* header-div */
 #header-div
-{height: 30vh; margin-top: 52.5px; background: url('../img/space-header.png'); 
+{height: 30vh; margin-top: 52.5px; background: url('../img/space-header.jpg'); 
 background-size: cover; z-index: -5; border-bottom: 2.5px solid #F8C18D;}
 #header-logo-div
 {width: 10%; float: left; height: 30vh;}
